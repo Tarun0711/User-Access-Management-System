@@ -1,74 +1,109 @@
-# Welcome to your Lovable project
+# Access Compass Frontend
 
-## Project info
+A modern web application built with React, TypeScript, and Vite, featuring a beautiful UI powered by Shadcn UI components.
 
-**URL**: https://lovable.dev/projects/aebd5bca-d509-4d0f-b930-48c84da75ec0
+## 🚀 Features
 
-## How can I edit this code?
+- ⚡️ Built with Vite for lightning-fast development
+- 🎨 Modern UI components using Shadcn UI
+- 📱 Responsive design with Tailwind CSS
+- 🔒 Type-safe development with TypeScript
+- 🛣️ Client-side routing with React Router
+- 📊 Data visualization with Recharts
+- 🎯 Form handling with React Hook Form and Zod validation
+- 🔄 State management with React Query
+- 🎭 Theme support with next-themes
 
-There are several ways of editing your application.
+## 📋 Prerequisites
 
-**Use Lovable**
+- Node.js (Latest LTS version recommended)
+- npm or bun package manager
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/aebd5bca-d509-4d0f-b930-48c84da75ec0) and start prompting.
+## 🛠️ Installation
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+1. Clone the repository:
+```bash
+git clone [repository-url]
+cd access-compass-frontend
 ```
 
-**Edit a file directly in GitHub**
+2. Install dependencies:
+```bash
+# Using npm
+npm install
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+# Using bun
+bun install
+```
 
-**Use GitHub Codespaces**
+## 🚀 Development
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+To start the development server:
 
-## What technologies are used for this project?
+```bash
+npm run dev
+# or
+bun run dev
+```
 
-This project is built with:
+The application will be available at `http://localhost:5173`
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📦 Build
 
-## How can I deploy this project?
+To create a production build:
 
-Simply open [Lovable](https://lovable.dev/projects/aebd5bca-d509-4d0f-b930-48c84da75ec0) and click on Share -> Publish.
+```bash
+npm run build
+# or
+bun run build
+```
 
-## Can I connect a custom domain to my Lovable project?
+For development build:
 
-Yes, you can!
+```bash
+npm run build:dev
+# or
+bun run build:dev
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🧪 Linting
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-# User-Access-Management-System
+To run the linter:
+
+```bash
+npm run lint
+# or
+bun run lint
+```
+
+## 🏗️ Project Structure
+
+```
+access-compass-frontend/
+├── src/              # Source files
+├── public/           # Static assets
+├── server/           # Server-side code
+├── components.json   # Shadcn UI configuration
+├── tailwind.config.ts # Tailwind CSS configuration
+└── vite.config.ts    # Vite configuration
+```
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/) - UI Library
+- [TypeScript](https://www.typescriptlang.org/) - Type Safety
+- [Vite](https://vitejs.dev/) - Build Tool
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [Shadcn UI](https://ui.shadcn.com/) - UI Components
+- [React Router](https://reactrouter.com/) - Routing
+- [React Query](https://tanstack.com/query) - Data Fetching
+- [Zod](https://zod.dev/) - Schema Validation
+- [React Hook Form](https://react-hook-form.com/) - Form Handling
+
+## 📝 License
+
+[Add your license information here]
+
+## 👥 Contributing
+
+[Add contribution guidelines here]
